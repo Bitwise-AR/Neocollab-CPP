@@ -1,2 +1,4 @@
 # Neocollab-CPP
-Programming  questions done on  Iamneo platform LPU
+CPP Programming  questions done on  Iamneo platform LPU.
+Open for all....
+Contribute if u can
