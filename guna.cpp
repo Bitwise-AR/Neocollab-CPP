@@ -8,7 +8,6 @@ public:
     int roll;
     int marks[5];
     int total;
-
     void totalmarks() {
         total = 0;
         for (int i = 0; i < 5; i++) {
