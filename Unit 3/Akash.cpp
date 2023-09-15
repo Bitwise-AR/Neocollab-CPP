@@ -61,7 +61,7 @@ int main()
             cout << "Error closing " << s1 << endl;
         return 0;
     }
-    cout << "Comparing files..." << endl;
+    cout << "Comparing files...\n";
     do
     {
         f1.read((char *)buf1, sizeof buf1);
@@ -83,20 +83,20 @@ int main()
         for (int i = 0; i < f1.gcount(); ++i)
             if (buf1[i] != buf2[i])
             {
-                cout << "Files differ." << endl;
+                cout << "Files differ.\n";
                 equal = false;
                 break;
             }
     } while (!f1.eof() && !f2.eof() && equal);
     if (!ferr && equal)
-        cout << "Files are the same." << endl;
+        cout << "Files are the same.\n";
     f1.clear();
     f2.clear();
     f1.close();
     f2.close();
     if (!f1.good() || !f2.good())
     {
-        cout << "Error closing files." << endl ;
+        cout << "Error closing files.\n";
         return 0;
     }
     return 0;
