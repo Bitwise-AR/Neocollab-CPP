@@ -7,8 +7,8 @@ private:
     int n;
 
 public:
-    Demo(int n) {
-        n = n;
+    Demo(int num) {
+        n = num;
         cout << "Inside Constructor" << endl;
     }
     
@@ -20,8 +20,8 @@ public:
         int sq = n * n;
         double sqroot = sqrt(n);
         
-        cout << "sq = " << sq << endl;
-        cout << "sq root = " << sqroot << endl;
+        cout << "square = " << sq << endl;
+        cout << "square root = " << sqroot << endl;
     }
 };
 
